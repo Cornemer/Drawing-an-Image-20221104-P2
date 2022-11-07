@@ -32,6 +32,9 @@ if ( widthLarger == true) imageHeightRatio = smallerDimension / largerDimension;
 if ( heightLarger == true) imageWidthRatio = smallerDimension / largerDimension;
 if ( heightLarger == true) imageHeightRatio = largerDimension / largerDimension;
 //
+picWidthAdjusted = picWidth * imageWidthRatio;
+picHeightAdjusted = picHeight = imageHieghtRatio;
+//
 //Population
 pic = loadImage("../Images Used/lake-svartisvatnet-in-norway-4k-5n.jpg");
 imageBackgroundX = appWidth*0;
